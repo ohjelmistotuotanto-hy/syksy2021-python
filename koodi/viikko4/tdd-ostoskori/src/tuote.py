@@ -1,8 +1,8 @@
 class Tuote:
   def __init__(self, nimi: str, hinta: int):
-      self.nimi = nimi
-      self.hinta = hinta
-      self.saldo = 0
+      self._nimi = nimi
+      self._hinta = hinta
+      self._saldo = 0
 
   def hinta(self):
     return self._hinta
@@ -11,4 +11,4 @@ class Tuote:
     return self._nimi
 
   def __repr__(self):
-      return f"{self.nimi} hinta {self.hinta} euroa"
+      return f"{self._nimi} hinta {self._hinta} euroa"
