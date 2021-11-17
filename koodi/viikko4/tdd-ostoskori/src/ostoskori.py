@@ -19,7 +19,7 @@ class Ostoskori:
         # lisää tuotteen
         pass
 
-    def poista_tuote(self, lisattava: Tuote):
+    def poista_tuote(self, poistettava: Tuote):
         # poistaa tuotteen
         pass
 
